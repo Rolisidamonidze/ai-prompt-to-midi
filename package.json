@@ -1,0 +1,39 @@
+{
+  "name": "ai-prompt-to-midi",
+  "version": "1.0.0",
+  "description": "AI-powered prompt-to-MIDI generator for Max for Live",
+  "main": "js/ai-prompt-processor.js",
+  "scripts": {
+    "start": "node js/ai-prompt-processor.js",
+    "test": "node js/test-prompt-processor.js",
+    "install-max": "echo 'Copy .maxpat files to Max patches folder and .amxd to Live User Library'"
+  },
+  "keywords": [
+    "max-for-live",
+    "midi",
+    "ai",
+    "music-generation",
+    "ableton-live",
+    "max-msp"
+  ],
+  "author": "AI Prompt MIDI Generator",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.0.0",
+    "node-fetch": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ai-prompt-to-midi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ai-prompt-to-midi/issues"
+  },
+  "homepage": "https://github.com/yourusername/ai-prompt-to-midi#readme"
+}

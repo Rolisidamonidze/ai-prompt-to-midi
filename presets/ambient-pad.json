@@ -1,0 +1,13 @@
+{
+  "name": "Ambient Pad",
+  "prompt": "Create a peaceful ambient soundscape with floating melodies",
+  "parameters": {
+    "tempo": 60,
+    "complexity": 0.3,
+    "key": "C",
+    "scale": "major",
+    "mood": "calm",
+    "genre": "ambient"
+  },
+  "description": "Ethereal, atmospheric textures for background music"
+}

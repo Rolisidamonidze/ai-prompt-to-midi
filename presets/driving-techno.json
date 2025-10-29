@@ -1,0 +1,13 @@
+{
+  "name": "Driving Techno",
+  "prompt": "Create an energetic driving techno bassline with intense rhythm",
+  "parameters": {
+    "tempo": 128,
+    "complexity": 0.4,
+    "key": "Am",
+    "scale": "minor",
+    "mood": "energetic",
+    "genre": "electronic"
+  },
+  "description": "High-energy electronic pattern for dance music"
+}
