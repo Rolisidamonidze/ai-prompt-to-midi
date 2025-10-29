@@ -38,6 +38,7 @@ ideator/
 ## Development
 
 This project requires:
+
 - Max/MSP 8.0 or higher
 - Ableton Live 11+ with Max for Live
 - Node.js (for AI processing backend)
@@ -45,6 +46,7 @@ This project requires:
 ## Technical Details
 
 The device consists of:
+
 - **Main Max patch**: User interface and MIDI generation logic
 - **AI Backend**: JavaScript/Node.js service for text processing and pattern generation
 - **MIDI Engine**: Real-time MIDI sequence generation and output
@@ -52,6 +54,7 @@ The device consists of:
 ## Examples
 
 Try these prompts:
+
 - "Happy birthday song in minor key"
 - "Driving techno bassline"
 - "Contemplative piano chords"

@@ -5,6 +5,7 @@
 This project creates a Max for Live device that transforms text prompts and creative ideas into MIDI sequences using AI/ML techniques.
 
 ## Project Structure
+
 - `/max-patches/` - Max/MSP patch files (.maxpat)
 - `/devices/` - Max for Live device files (.amxd)
 - `/js/` - JavaScript files for Node.js integration
@@ -12,6 +13,7 @@ This project creates a Max for Live device that transforms text prompts and crea
 - `/docs/` - Documentation and examples
 
 ## Development Guidelines
+
 - Use Max/MSP best practices for patch organization
 - Implement AI integration through Node.js subprocess or web API
 - Design intuitive user interface for prompt input and parameter control
