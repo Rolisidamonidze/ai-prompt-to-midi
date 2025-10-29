@@ -3,6 +3,7 @@
 ## Installation Steps
 
 ### 1. Prerequisites
+
 - **Ableton Live 11 or higher** with Max for Live
 - **Max/MSP 8.0 or higher** (comes with Live Suite or available separately)
 - **Node.js 14.0+** (for advanced AI features - optional)
@@ -10,6 +11,7 @@
 ### 2. Install the Device
 
 #### Option A: Direct Installation
+
 1. Download the `AI-Prompt-MIDI.amxd` file from the `/devices/` folder
 2. Copy it to your Ableton Live User Library:
    - **macOS**: `~/Music/Ableton/User Library/Max for Live/Max MIDI Effect/`
@@ -18,7 +20,9 @@
 4. The device will appear in Live's Browser under: **Max for Live > Max MIDI Effect**
 
 #### Option B: Development Installation
+
 If you want to modify the device:
+
 1. Clone this repository: `git clone https://github.com/Rolisidamonidze/ai-prompt-to-midi.git`
 2. Open `max-patches/ai-prompt-midi.maxpat` in Max/MSP
 3. Edit as needed
@@ -62,6 +66,7 @@ If you want to modify the device:
 ### 6. Example Prompts
 
 Try these examples to get started:
+
 - `"happy birthday song in minor key"`
 - `"energetic techno bassline"`
 - `"mysterious film score melody"`
@@ -73,21 +78,25 @@ Try these examples to get started:
 ### 7. Troubleshooting
 
 #### Device doesn't appear in Live
+
 - Ensure Max for Live is properly installed
 - Check that the `.amxd` file is in the correct User Library folder
 - Restart Ableton Live
 
 #### No MIDI output
+
 - Check that the device is on a MIDI track
 - Ensure an instrument is placed after the device
 - Verify the track is armed and monitoring is enabled
 
 #### JavaScript errors
+
 - Open Max/MSP and check the console for errors
 - Ensure the `js/prompt-to-midi.js` file is accessible
 - Check file paths in the device
 
 #### Poor generation quality
+
 - Try more specific prompts with musical terminology
 - Adjust the complexity parameter
 - Use genre-specific keywords (jazz, techno, classical, etc.)
@@ -97,12 +106,14 @@ Try these examples to get started:
 For enhanced AI features:
 
 1. **Install Node.js dependencies**:
+
    ```bash
    cd path/to/ai-prompt-to-midi
    npm install
    ```
 
 2. **Set up OpenAI API** (optional):
+
    ```bash
    export OPENAI_API_KEY="your-api-key-here"
    ```
